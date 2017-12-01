@@ -1,0 +1,6 @@
+---
+- name: MuninNode
+  hosts: webMN
+  remote_user: root
+  roles:
+    - muninN

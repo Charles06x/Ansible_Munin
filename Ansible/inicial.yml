@@ -1,0 +1,7 @@
+---
+- name: Proyecto final
+  hosts: hosts
+- include: 
+    apache.yml
+    muninMaster.yml
+    muninNode.yml

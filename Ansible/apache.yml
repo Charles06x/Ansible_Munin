@@ -1,0 +1,6 @@
+---
+- name: Apache
+  hosts: webMN, webMM
+  remote_user: root
+  roles:
+    - apache
